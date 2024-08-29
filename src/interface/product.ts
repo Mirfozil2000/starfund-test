@@ -3,7 +3,7 @@ interface Product {
   title: string;
   description: string;
   price: number;
-  currency: string;
+  currency?: string;
   image: string;
   rating: number;
 }
